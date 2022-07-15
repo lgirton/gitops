@@ -23,8 +23,8 @@ spec:
   syncPolicy:
     automated:
       allowEmpty: true
-      prune: true
-      selfHeal: true
+      prune: false
+      selfHeal: false
     syncOptions:
     - allowEmpty=true
 status:
